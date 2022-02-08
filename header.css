@@ -23,6 +23,8 @@ header{
 header *{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+    list-style: none;
+    text-decoration: none;
 }
 #header-img-link{
     margin-top: 0.25%;
@@ -35,6 +37,19 @@ header *{
 #header-logo{
     padding-left: 50%;
     width: 250%;
+}
+ul{
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+ul li a{
+    color: black;
 }
 
 
@@ -123,9 +138,49 @@ header button:hover{
 }
 
 
+
 #header-main{
     background-color: #DAE0E6;
     padding-bottom: 100%;
     border-color: #0079D3;
+
+}
+header ul{
+    padding: 0%;
 }
 
+header .navbar ul li a{
+    padding: 20px;
+    color: black;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background-color: #0079D3;
+    color: white;
+}
+
+header .navbar ul li ul{
+    margin-top:1.2%;
+    margin-left: -2%;
+    position: absolute;
+    left: 1;
+    width: 200px;
+    background: white;
+    display: none;
+
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+
+header .navbar ul li button{
+    top: 15%;
+    position: absolute;}
