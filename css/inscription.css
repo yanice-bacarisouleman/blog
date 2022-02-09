@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat-Bold.ttf';
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold.ttf';
+    src: url('../font/Montserrat-Bold.ttf');
+}
+
+body{
+    background-image: url(../image/Capture.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.forminscri{
+    border: solid black;
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 3%;
+}
+
+.img{
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: -10%;
+}
+
+.inscri{
+    border: black solid;
+    border-radius: 2%;
+    margin: auto;
+    height: 350px;
+    width: 450px;
+}
+
+.inscri::placeholder{
+    margin-left: 1%;
+}
+
+.formab{
+    font-size: 24px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+
+.formb{
+    display: flex;
+    margin-left: 0%;
+    margin-bottom: 2%;
+}
+
+.formc{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.formd{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.hr{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.forme{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.formta{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.buttonn{
+    width: 33%;
+    height: 35px;
+    border-radius: 40px;
+    font-size: 14px;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: white;
+    color: #0079D3;
+    cursor: pointer;
+    border: #0079D3 solid 1px;
+    font-family: 'Montserrat-Bold.ttf';
+}
+
+.endtxt{
+    margin-left: 22%;
+    margin-top: 12%;
+    font-size: 15px;
+}
+
+.endtxt a{
+    text-decoration: none;
+    color: #0079D3;
+}
+
+.conditions{
+    margin-left: 5%;
+    font-size: 13px;
+}
+
+.conditions a{
+    text-decoration: none;
+}

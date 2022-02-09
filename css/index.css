@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: none;
+    font-family: 'recoletaregular_demo';
+}
+@font-face {
+    font-family: 'recoletaregular_demo';
+    src: url('font/recoleta-regulardemo-webfont.woff2') format('woff2'),
+         url('font/recoleta-regulardemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.grossediv{
+display: flex;
+}
+.connexiongauche{
+    border: solid black;
+}
+.connexiondroite{
+
+}
+
+.formcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 96%;
+    height: 45%;
+    font-size: 40px;
+    padding-left: 3%;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    height: 53%;
+    font-size: 25px;
+    padding-left: 5%;
+    margin-top: 5%;
+    
+}
+
+.formta{
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    border: solid 2px;
+}
+
+.formdeta{
+}
+
+.formdetb{
+margin-top: 2%;
+}
+
+
+.buttonn{
+    width: 15%;
+    border-radius: 40px;
+    font-size: 17px;
+    margin-left: 6.2%;
+    margin-top: 2%;
+    background-color: rgb(50, 50, 186);
+    color: white;
+    cursor: pointer;
+}
+.button2{
+    width: 20%;
+    border-radius: 40px;
+    font-size: 15px;
+    margin-left: 3.5%;
+    margin-top: 1%;
+    background-color: rgb(50, 50, 186);
+    color: white;
+    cursor: pointer;
+}
+
+
+.ou{
+    margin-left: 11.5%;
+    font-size: 30px;
+}
+
+.compte{
+    margin-bottom: 2%;
+    font-size: 35px;
+    margin-left: -1.5%;
+}
+
+
+footer{
+    border: black solid;
+    margin: auto;
+}
