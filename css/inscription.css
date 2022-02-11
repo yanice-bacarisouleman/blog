@@ -13,6 +13,7 @@ body{
     background-image: url(../image/Capture.PNG);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 .forminscri{
@@ -55,8 +56,6 @@ body{
 
 .forma{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 5%;
 }
 
 
@@ -78,8 +77,9 @@ body{
 
 .hr{
     margin-left: 25%;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 3%;
+
 }
 
 .forme{
@@ -112,8 +112,8 @@ body{
 }
 
 .endtxt{
-    margin-left: 22%;
-    margin-top: 12%;
+    margin-left: 18%;
+    margin-top: 20%;
     font-size: 15px;
 }
 

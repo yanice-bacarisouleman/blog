@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/inscription.css">
 </head>
 <body>
-    <div class="forminscri">
+<div class="forminscri">
         <div class="img">
         <a href="index.php"><img src="image/fav.png" width="10%"></a>
         </div>
@@ -17,7 +17,7 @@
         <form action="inscription.php" method="post">
                 <div class="formab"><p><b>Créer votre compte</p></b></div>
                 <div class="forma">
-                    <input type="login" name="login" class="formta" required="required" placeholder="Login">
+                    <input type="login" name="login" class="formta" required="required" placeholder="Nom d'utilisateur">
                     <input type="email" name="email" class="formta" required="required" placeholder="Email">
                 </div>
                 <div class="formb">      
@@ -29,7 +29,7 @@
                 <div class="forme">
                 <button type="submit" class="buttonn"><b>Inscrivez-vous</b></button>
                 </div>
-                <p class="endtxt">Retourner sur la <a href="index.php">page d'acceuil</a></p>
+                <p class="endtxt">Retourner sur la <a href="connexion.php">page de connexion</a></p>
         </form>
         </div>
 </body>
