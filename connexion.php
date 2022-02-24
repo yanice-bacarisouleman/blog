@@ -45,7 +45,7 @@
     <ul class="navfooter">
         <li class="nav-item"><a href="">Page d'accueil</a></li>
         <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="profil.php">Votre Profil</a></li>
         <li class="nav-item"><a href="https://github.com/yanice-bacarisouleman/blog" target="_blank">Github</a></li>
     </ul>
     <p class="text-center">© 2022 Company, Inc</p>

@@ -17,12 +17,12 @@
         <form action="inscription.php" method="post">
                 <div class="formab"><p><b>Créer votre compte</p></b></div>
                 <div class="forma">
-                    <input type="login" name="login" class="formta" required="required" placeholder="Nom d'utilisateur">
-                    <input type="email" name="email" class="formta" required="required" placeholder="Email">
+                    <input type="login" name="login" class="formta" required="required" placeholder=" Nom d'utilisateur">
+                    <input type="email" name="email" class="formta" required="required" placeholder=" Email">
                 </div>
                 <div class="formb">      
-                    <input type="motdepasse" name="mdp" class="formta" required="required" placeholder="Mot de passe">
-                    <input type="cmotdepasse" name="cmdp" class="formta" required="required" placeholder="Confirmez votre mot de passe">
+                    <input type="motdepasse" name="mdp" class="formta" required="required" placeholder=" Mot de passe">
+                    <input type="cmotdepasse" name="cmdp" class="formta" required="required" placeholder=" Confirmez votre mot de passe">
                 </div>
                 <p class="conditions">En vous inscrivant, vous acceptez les <a href="#">Conditions d'Utilisation</a> et la <a href="#">Politique de Confidentialité</a>, incluant l'<a href="#">Utilisation de Cookies</a>.</p>
                 <div class="hr"><hr width="65%"></div>
