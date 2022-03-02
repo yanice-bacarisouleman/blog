@@ -1,14 +1,10 @@
-<?php
-require "donnee.php";
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/profil.css">
+    <link rel="stylesheet" href="css/profil2.css">
     <link rel="icon" href="image/fav.png">
     <title>FreeSpeak. En route pour le bonheur</title>
 </head>
@@ -39,21 +35,24 @@ require "donnee.php";
     </header>
     <main>
     <div class="main">
-            <div class="main-in">
-                <h1>Votre compte</h1>
-                <hr>
-            <div class="liens">
-                <a href="profil.php">Mon profil</a>
-                <a href="profil2.php">Informations personnelles</a>
-            </div>
-            <hr class="bottomhr" width="15%">
-            <div class="loginmodif">
-                <form class="form" method="POST" action = "profil.php">
-                <input class="inpute" type = "text" name = "login" id = "login" placeholder = <?php echo $_SESSION['login'];?>><br> 
-                <input type = "submit" value = "Changer le login" name = "changelogin" class="button"/><br><br>
+        <div class="main-in">
+            <h1>Votre compte</h1>
+            <hr>
+        <div class="liens">
+            <a href="profil.php">Mon profil</a>
+            <a href="profil2.php">Informations personnelles</a>
+        </div>
+        <hr class="bottomhr" width="15%">
+        <div class="mdpmodif">
+                <h1>Mot de passe</h1>
+                <form class="form" method="POST" action = "profil2.php.php">
+                <input class="inpute" type = "password" name = "password" id = "password" placeholder = 'Nouveau mot de passe'  /><br>
+                <input class="inpute" type = "password" name = "passwordconfirm" id = "passwordconfirm" placeholder ='Confirmer le mot de passe' /><br>
+                <input type = "submit" value = "Changer le mot de passe" name = "changepassword" class="button"/><br><br>
                 </form>   
             </div>
         </div>
+        
     </div>
 </main>
     <footer>

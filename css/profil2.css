@@ -211,7 +211,6 @@ footer{
     border-radius: 5%;
     width: 90%;
     padding-bottom: 25%;
-    display: flex;
 }
 
 .main-in{
@@ -232,8 +231,7 @@ footer{
     margin-left: 0.45%;
 }
 
-.loginmodif{
-    margin-top: 0%;
+.mdpmodif{
     margin-left: 1%;
 }
 
